@@ -8,17 +8,9 @@ function App() {
 
 function AddingValue() {
   console.log("clicked ",count);
-  // count = count+1;
-  // count = count+1;
-  // count = count+1;
-  // count = count+1;
-
-  // setCount(count)
-
-  setCount(count => count+1)
-  setCount(count => count+1)
-  setCount(count => count+1)
- 
+  count = count+1;
+  setCount(count)
+  
 }
 
 function RemovingValue() {
